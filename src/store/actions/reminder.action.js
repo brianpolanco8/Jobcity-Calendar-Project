@@ -1,5 +1,4 @@
 import * as actionTypes from "./types";
-import Api from "api";
 
 // Action creators
 const createReminderAction = (reminder) => {

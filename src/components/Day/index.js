@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { connect, useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as actions from "store/actions";
 import ReminderForm from "./ReminderForm";
 import Reminder from "./Reminder";
