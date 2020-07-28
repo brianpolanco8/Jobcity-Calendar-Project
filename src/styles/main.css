@@ -13,15 +13,14 @@ html {
 body {
   font: normal 16px "Montserrat", sans-serif;
   padding: 15px;
+  background: rgb(2, 0, 36);
   background: linear-gradient(
-      to right top,
-      #051937,
-      #004d7a,
-      #008793,
-      #00bf72,
-      #a8eb12
-    )
-    no-repeat;
+    to right top,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 120, 9, 1) 19%,
+    rgba(207, 255, 0, 0.43582887700534756) 100%
+  );
+
   background-attachment: fixed;
 }
 

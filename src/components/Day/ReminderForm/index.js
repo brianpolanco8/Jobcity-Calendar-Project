@@ -6,28 +6,31 @@ import "rc-time-picker/assets/index.css";
 import "rc-color-picker/assets/index.css";
 import "./index.css";
 
-const reminderForm = (props) => {
-  const time = props.reminder.time
-    ? moment(props.reminder.time, "HH:mm a")
+const reminderForm = ({
+  reminder,
+  handleSetColor,
+  handleSetEditDay,
+  handleCreateUpdateReminder,
+  defaultColor,
+}) => {
+  const time = reminder.time
+    ? moment(reminder.time, "HH:mm a")
     : moment().hour(0).minute(0);
 
   return (
     <form
       method="post"
-      onSubmit={(e) => props.handleCreateUpdateReminder(e, props.reminder)}
+      onSubmit={(e) => handleCreateUpdateReminder(e, reminder)}
+      className="reminder-form"
     >
       <textarea
         className="description"
         placeholder="Reminder"
         maxLength="30"
-        defaultValue={props.reminder.description}
+        defaultValue={reminder.description}
       />
 
-      <select
-        className="city"
-        placeholder="City"
-        defaultValue={props.reminder.city}
-      >
+      <select className="city" placeholder="City" defaultValue={reminder.city}>
         {CITIES.map((city, i) => (
           <option key={i} value={city}>
             {city}
@@ -46,16 +49,13 @@ const reminderForm = (props) => {
       <ColorPicker
         className="color-picker"
         animation="slide-up"
-        color={props.reminder.color || props.defaultColor}
-        onClose={props.handleSetColor}
+        color={reminder.color || defaultColor}
+        onClose={handleSetColor}
       />
 
       <button className="btn-submit">Submit</button>
 
-      <button
-        className="btn-cancel"
-        onClick={() => props.handleSetEditDay(null)}
-      >
+      <button className="btn-cancel" onClick={() => handleSetEditDay(null)}>
         Cancel
       </button>
     </form>

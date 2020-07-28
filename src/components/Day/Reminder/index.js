@@ -1,20 +1,20 @@
 import React from "react";
 import "./index.css";
 
-const reminder = (props) => (
-  <article className="reminder" style={{ background: props.reminder.color }}>
+const reminder = ({ reminder, handleSetEdit, handleDeleteReminder }) => (
+  <article className="reminder" style={{ background: reminder.color }}>
     <div className="tools">
-      <button onClick={() => props.handleDeleteReminder(props.reminder.id)}>
+      <button onClick={() => handleDeleteReminder(reminder.id)}>
         <i className="fas fa-trash-alt" />
       </button>
-      <button onClick={() => props.handleSetEdit(props.reminder)}>
+      <button onClick={() => handleSetEdit(reminder)}>
         <i className="fas fa-edit" />
       </button>
     </div>
-    <strong>{props.reminder.description}</strong>
-    <strong>{props.reminder.city}</strong>
-    <strong>{props.reminder.weather} °C</strong>
-    <time>{props.reminder.time}</time>
+    <strong>{reminder.description}</strong>
+    <strong>{reminder.city}</strong>
+    <strong>{reminder.weather} °C</strong>
+    <time>{reminder.time}</time>
   </article>
 );
 

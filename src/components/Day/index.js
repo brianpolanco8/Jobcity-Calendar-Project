@@ -98,7 +98,7 @@ const Day = (props) => {
           className="btn-new-reminder"
           onClick={() => props.handleSetEditDay(props.day)}
         >
-          <i className="fas fa-plus-circle" />
+          <i className="fas fa-plus" />
         </button>
       )}
 
