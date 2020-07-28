@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/css/main.6dec15f9.chunk.css",
-    "main.js": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/main.59c2064f.chunk.js",
-    "main.js.map": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/main.59c2064f.chunk.js.map",
-    "runtime-main.js": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/runtime-main.5bbece01.js",
-    "runtime-main.js.map": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/runtime-main.5bbece01.js.map",
-    "static/css/2.3838c02d.chunk.css": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/css/2.3838c02d.chunk.css",
-    "static/js/2.0dc4eefb.chunk.js": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/2.0dc4eefb.chunk.js",
-    "static/js/2.0dc4eefb.chunk.js.map": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/2.0dc4eefb.chunk.js.map",
-    "index.html": "/brianpolanco8.github.io/Jobcity-Calendar-Project/index.html",
-    "precache-manifest.5eb75b2b9f3e23a1de0094082af7e6f2.js": "/brianpolanco8.github.io/Jobcity-Calendar-Project/precache-manifest.5eb75b2b9f3e23a1de0094082af7e6f2.js",
-    "service-worker.js": "/brianpolanco8.github.io/Jobcity-Calendar-Project/service-worker.js",
-    "static/css/2.3838c02d.chunk.css.map": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/css/2.3838c02d.chunk.css.map",
-    "static/css/main.6dec15f9.chunk.css.map": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/css/main.6dec15f9.chunk.css.map",
-    "static/js/2.0dc4eefb.chunk.js.LICENSE.txt": "/brianpolanco8.github.io/Jobcity-Calendar-Project/static/js/2.0dc4eefb.chunk.js.LICENSE.txt"
+    "main.css": "/Jobcity-Calendar-Project/static/css/main.6dec15f9.chunk.css",
+    "main.js": "/Jobcity-Calendar-Project/static/js/main.fd8e82b4.chunk.js",
+    "main.js.map": "/Jobcity-Calendar-Project/static/js/main.fd8e82b4.chunk.js.map",
+    "runtime-main.js": "/Jobcity-Calendar-Project/static/js/runtime-main.4bad92e2.js",
+    "runtime-main.js.map": "/Jobcity-Calendar-Project/static/js/runtime-main.4bad92e2.js.map",
+    "static/css/2.3838c02d.chunk.css": "/Jobcity-Calendar-Project/static/css/2.3838c02d.chunk.css",
+    "static/js/2.244581f9.chunk.js": "/Jobcity-Calendar-Project/static/js/2.244581f9.chunk.js",
+    "static/js/2.244581f9.chunk.js.map": "/Jobcity-Calendar-Project/static/js/2.244581f9.chunk.js.map",
+    "index.html": "/Jobcity-Calendar-Project/index.html",
+    "precache-manifest.4935a73a52ca6b6d123401d76b418be7.js": "/Jobcity-Calendar-Project/precache-manifest.4935a73a52ca6b6d123401d76b418be7.js",
+    "service-worker.js": "/Jobcity-Calendar-Project/service-worker.js",
+    "static/css/2.3838c02d.chunk.css.map": "/Jobcity-Calendar-Project/static/css/2.3838c02d.chunk.css.map",
+    "static/css/main.6dec15f9.chunk.css.map": "/Jobcity-Calendar-Project/static/css/main.6dec15f9.chunk.css.map",
+    "static/js/2.244581f9.chunk.js.LICENSE.txt": "/Jobcity-Calendar-Project/static/js/2.244581f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bbece01.js",
+    "static/js/runtime-main.4bad92e2.js",
     "static/css/2.3838c02d.chunk.css",
-    "static/js/2.0dc4eefb.chunk.js",
+    "static/js/2.244581f9.chunk.js",
     "static/css/main.6dec15f9.chunk.css",
-    "static/js/main.59c2064f.chunk.js"
+    "static/js/main.fd8e82b4.chunk.js"
   ]
 }
