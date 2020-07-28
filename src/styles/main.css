@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:600";
+@import "https://use.fontawesome.com/releases/v5.2.0/css/all.css";
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: normal 16px "Montserrat", sans-serif;
+  padding: 15px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    to right top,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 120, 9, 1) 19%,
+    rgba(207, 255, 0, 0.43582887700534756) 100%
+  );
+
+  background-attachment: fixed;
+}
+
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
