@@ -29,28 +29,6 @@ const MonthView = (props) => {
 
     const prevMonth = moment(curMonth).subtract(1, "M").format("YYYY-MM");
 
-    // this.setState(
-    //   {
-    //     curMonth: {
-    //       date: curMonth,
-    //       name: moment(curMonth).format("MMMM YYYY"),
-    //       days: moment(curMonth).daysInMonth(),
-    //       editDay: null,
-    //     },
-    //     nextMonth: {
-    //       date: nextMonth,
-    //       slug: nextMonth.replace("-", "/"),
-    //     },
-    //     prevMonth: {
-    //       date: prevMonth,
-    //       slug: prevMonth.replace("-", "/"),
-    //     },
-    //   },
-    //   () => {
-    //     // console.warn(this.state);
-    //   }
-    // );
-
     setCurMonth({
       date: curMonth,
       name: moment(curMonth).format("MMMM YYYY"),
@@ -70,13 +48,6 @@ const MonthView = (props) => {
   };
 
   const handleSetEditDay = (day) => {
-    // this.setState({
-    //   curMonth: {
-    //     ...this.state.curMonth,
-    //     editDay: day
-    //   }
-    // });
-
     setCurMonth({
       ...curMonth,
       editDay: day,
@@ -91,7 +62,7 @@ const MonthView = (props) => {
     };
 
     for (let i = 1; i <= curMonth.days; i++) {
-      let date = `${curMonth.date}-${("0" + i).slice(-2)}`; // Add leading zeros
+      let date = `${curMonth.date}-${("0" + i).slice(-2)}`;
       props["date"] = date;
       props["day"] = i;
 
@@ -111,7 +82,6 @@ const MonthView = (props) => {
 
   return (
     <div className="month">
-      {/* <h1>Welcome</h1> */}
       <HeaderMonth
         curMonth={curMonth}
         nextMonth={nextMonth}

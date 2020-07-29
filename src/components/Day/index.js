@@ -68,10 +68,8 @@ const Day = (props) => {
       if (update.id) {
         payload["id"] = update.id;
         dispatch(actions.updateReminder(payload));
-        // props.updateReminder(payload);
       } else {
         dispatch(actions.createReminder(payload));
-        // props.createReminder(payload);
       }
 
       props.handleSetEditDay(null);
@@ -82,7 +80,6 @@ const Day = (props) => {
 
   const handleDeleteReminder = (id) => {
     dispatch(actions.deleteReminder(props.date, id));
-    // props.deleteReminder(props.date, id);
   };
 
   const reminders = _sortBy(reminderSelector[props.date], "time") || [];
