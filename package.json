@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^26.0.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "moment": "^2.27.0",
     "rc-color-picker": "^1.2.6",
     "rc-time-picker": "^3.7.3",
